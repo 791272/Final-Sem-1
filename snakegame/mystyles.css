@@ -1,0 +1,38 @@
+body{
+  background-image: url('back.png');
+  margin-left: 500px;
+  margin-top: 50px;
+  font-family: myFirstFont;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url('ARCADECLASSIC.TTF');
+}
+
+#scoreDiv{
+  width:798px;
+  height:50px;
+  float:top;
+  background-image: url('scoreDiv.png');
+  font-family: myFirstFont;
+  color: white;
+  border: 1px solid black;
+}
+
+#canvas{
+  font-family: myFirstFont;
+  float:top;
+}
+
+#score{
+  position: relative;
+  text-align: center;
+  bottom: 50px;
+  font-family: myFirstFont;
+  font-size: 50px;
+}
+
+#buttons{
+  align-content: center;
+}
